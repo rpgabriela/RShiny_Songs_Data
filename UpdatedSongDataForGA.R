@@ -32,7 +32,7 @@ ui <- fluidPage(
       selectInput(
         inputId = "x",
         label = "X-axis:",
-        choices = c("Duration_S", "Danceability"),
+        choices = c("Duration", "Danceability"),
         selected = "Duration_S"
       ),
       
